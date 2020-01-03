@@ -27,7 +27,7 @@ app.use(limiter);
 
 app.use(cors());
 
-app.get("/search/", dbFunctions.getWorks);
+app.get("/search/", dbFunctions.getProjects);
 app.get("/categories/", dbFunctions.getCategories);
 
 app.listen(process.env.PORT, () => {

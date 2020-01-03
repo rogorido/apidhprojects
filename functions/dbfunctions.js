@@ -11,13 +11,14 @@ function sql(file) {
 const sqlGetCategories = sql("../sqls/categories.sql");
 const sqlFindProjectsSimple = sql("../sqls/querysimple.sql");
 const sqlFindProjectsComplex = sql("../sqls/querywithcats.sql");
+const sqlFindProjectsOnlyCategories = sql("../sqls/queryonlycats.sql");
 
 async function getCategories(request, response) {
   const rowList = await db.query(sqlGetCategories);
   response.send(rowList);
 }
 
-async function getWorks(request, response) {
+async function getProjects(request, response) {
   let rowList = [];
 
   // there are no terms, only cats
@@ -26,7 +27,12 @@ async function getWorks(request, response) {
       ? request.query.cat.join(",")
       : request.query.cat;
 
-    rowList = await db.query(sqlFindWorkPerCategory, cats);
+    //cats = ["adultos", "literature"];
+    joder = { cats };
+    console.log(joder["cats"]);
+    console.log(joder);
+
+    rowList = await db.query(sqlFindProjectsOnlyCategories, joder);
   } else if (!request.query.cat && request.query.term) {
     let terms = Array.isArray(request.query.term)
       ? request.query.term.join(":*&")
@@ -34,7 +40,8 @@ async function getWorks(request, response) {
 
     // we need to add at the end :*
     terms = `${terms}:*`;
-    rowList = await db.query(sqlFindWork, terms);
+    console.log(terms);
+    rowList = await db.query(sqlFindProjectsSimple, terms);
   } else {
     // terms and cats
 
@@ -56,4 +63,4 @@ async function getWorks(request, response) {
   response.send(rowList);
 }
 
-module.exports = { getCategories, getWorks };
+module.exports = { getCategories, getProjects };
