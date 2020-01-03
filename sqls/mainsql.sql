@@ -7,7 +7,7 @@ CREATE TABLE projects (
   mirrored VARCHAR(250),
   url VARCHAR(250), 
   blog VARCHAR(250),
-  categories TEXT 
+  categories VARCHAR[]
 );
 
 CREATE MATERIALIZED VIEW searching
