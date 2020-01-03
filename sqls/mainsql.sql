@@ -10,3 +10,15 @@ CREATE TABLE projects (
   categories TEXT 
 );
 
+CREATE MATERIALIZED VIEW searching
+AS
+SELECT project_id, project_name, description, lang,
+       active, mirrored, url, blog, categories,
+       to_tsvector('english', concat_ws('; ', project_name,
+       description, categories)) AS searchterms
+FROM projects
+ORDER BY project_name;
+CREATE INDEX ON searching USING gin(searchterms);
+
+
+
