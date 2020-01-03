@@ -6,10 +6,9 @@ const rateLimit = require("express-rate-limit");
 const morgan = require("morgan");
 const cors = require("cors");
 require("dotenv").config();
+const dbFunctions = require("./functions/dbfunctions");
 
-// const dbFunctions = require("./functions/dbfunctions");
 const app = express();
-
 app.use(morgan("tiny"));
 app.use(bodyParser.json());
 app.use(
@@ -29,6 +28,7 @@ app.use(limiter);
 app.use(cors());
 
 app.get("/search/", dbFunctions.getWorks);
+app.get("/categories/", dbFunctions.getCategories);
 
 app.listen(process.env.PORT, () => {
   console.log(`Server is running on http://localhost:${process.env.PORT}/`);
