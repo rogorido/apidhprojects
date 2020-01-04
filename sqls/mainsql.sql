@@ -20,5 +20,3 @@ FROM projects
 ORDER BY project_name;
 CREATE INDEX ON searching USING gin(searchterms);
 
-
-
