@@ -1,0 +1,42 @@
+[
+  {
+    "project_name": "probando",
+    "description": "leches",
+    "lang": "french",
+    "active": true,
+    "mirrored": null,
+    "url": null,
+    "blog": "jodienda",
+    "categories": ["leches", "enviar", "mundo"]
+  },
+  {
+    "project_name": "AfricaMap",
+    "description": "Part of the Harvard World Map project",
+    "lang": "english",
+    "active": false,
+    "mirrored": null,
+    "url": null,
+    "blog": "ahora",
+    "categories": ["digital history", "literature"]
+  },
+  {
+    "project_name": "A Long History of a Short Block",
+    "description": "A study of 486 feet of present-day Greene Street between Houston and Prince Streets in Manhattan, New York. A remarkable and innovative project, producing a kind of thick description of a small area.",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "http://www.greenestreet.nyc",
+    "blog": null,
+    "categories": ["digital history", "literature"]
+  },
+  {
+    "project_name": "Niños y adultos",
+    "description": "A study of 486 feet of present-day Greene Street between Houston and Prince Streets in Manhattan, New York. A remarkable and innovative project, producing a kind of thick description of a small area.",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "http://www.greenestreet.nyc",
+    "blog": null,
+    "categories": ["niños", "adultos"]
+  }
+]
