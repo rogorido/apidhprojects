@@ -4,5 +4,5 @@ SELECT *
 FROM searching
 WHERE project_id IN
       (SELECT project_id FROM projects
-       WHERE ${cats} && categories);
+       WHERE $1 && categories);
 

@@ -1,5 +1,13 @@
 const path = require("path");
-const pgp = require("pg-promise")(/* options */);
+// pg-promise initialization options...
+const initOptions = {
+  query(e) {
+    console.log("QUERY:", e.query);
+  }
+};
+
+//const pgp = require("pg-promise")(initOptions);
+const pgp = require("pg-promise")();
 
 username = process.env.PROXY_USER_NAME;
 password = process.env.PROXY_USER_PASS;
@@ -31,15 +39,15 @@ async function getProjects(request, response) {
   // there are no terms, only cats
   if (!request.query.term && request.query.cat) {
     let cats = Array.isArray(request.query.cat)
-      ? request.query.cat.join(",")
-      : request.query.cat;
+      ? request.query.cat
+      : [request.query.cat];
 
-    //cats = ["adultos", "literature"];
-    joder = { cats };
-    console.log(joder["cats"]);
-    console.log(joder);
-
-    rowList = await db.query(sqlFindProjectsOnlyCategories, joder);
+    // this is not verey clear to me. It seems I need this structure:
+    // https://github.com/vitaly-t/pg-promise/issues/690
+    // [['America', 'literature']]
+    // this is why I create an array if we only have one element, and then
+    // I use again [ ] here above...
+    rowList = await db.query(sqlFindProjectsOnlyCategories, [cats]);
   } else if (!request.query.cat && request.query.term) {
     let terms = Array.isArray(request.query.term)
       ? request.query.term.join(":*&")
@@ -53,8 +61,8 @@ async function getProjects(request, response) {
     // terms and cats
 
     let cats = Array.isArray(request.query.cat)
-      ? request.query.cat.join(",")
-      : request.query.cat;
+      ? request.query.cat
+      : [request.query.cat];
 
     let terms = Array.isArray(request.query.term)
       ? request.query.term.join(":*&")
@@ -63,9 +71,9 @@ async function getProjects(request, response) {
     // we need to add at the end :*
     terms = `${terms}:*`;
 
-    let valuestopass = [terms, cats];
+    let valuestopass = [terms, [cats]];
 
-    rowList = await db.query(sqlFindWorkTermsCats, valuestopass);
+    rowList = await db.query(sqlFindProjectsComplex, valuestopass);
   }
   response.send(rowList);
 }
