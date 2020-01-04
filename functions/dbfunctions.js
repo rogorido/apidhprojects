@@ -1,6 +1,13 @@
 const path = require("path");
 const pgp = require("pg-promise")(/* options */);
-const db = pgp("postgres://igor@localhost:5432/dhprojects");
+
+username = process.env.PROXY_USER_NAME;
+password = process.env.PROXY_USER_PASS;
+pgport = process.env.PGPORT;
+
+const db = pgp(
+  `postgres://${username}:${password}@localhost:${pgport}/dhprojects`
+);
 
 // Helper for linking to external query files:
 function sql(file) {
