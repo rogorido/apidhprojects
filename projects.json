@@ -1,23 +1,23 @@
 [
   {
-    "project_name": "probando",
-    "description": "leches",
-    "lang": "french",
+    "project_name": "Addressing History",
+    "description": "Scottish Post Office directories and contemporary maps.",
+    "lang": "english",
     "active": true,
     "mirrored": null,
-    "url": null,
-    "blog": "jodienda",
-    "categories": ["leches", "enviar", "mundo"]
+    "url": "http://addressinghistory.edina.ac.uk/",
+    "blog": null,
+    "categories": ["post history", "Scotland", "Europe"]
   },
   {
     "project_name": "AfricaMap",
-    "description": "Part of the Harvard World Map project",
+    "description": "Part of the Harvard World Map project. Africamap is housed at the Center for Geographic Analysis at Harvard University with an initial grant from the Harvard Provosts Fund for Innovative Computing and ongoing support from the W. E. B. Du Bois Institute, the Department of African and African American Studies and the Committee for African Studies at Harvard University. AfricaMap grew out of a project, called Baobab, funded by the Seaver Institute.",
     "lang": "english",
-    "active": false,
+    "active": true,
     "mirrored": null,
     "url": "http://worldmap.harvard.edu/africamap/",
-    "blog": "ahora",
-    "categories": ["digital history", "literature"]
+    "blog": null,
+    "categories": ["Africa", "linguistics", "ethnography", "history"]
   },
   {
     "project_name": "A Long History of a Short Block",
@@ -25,18 +25,124 @@
     "lang": "english",
     "active": true,
     "mirrored": null,
-    "url": "http://www.greenestreet.nyc",
+    "url": "http://www.greenestreet.nyc/",
     "blog": null,
-    "categories": ["digital history", "literature"]
+    "categories": ["USA", "sociology"]
   },
   {
-    "project_name": "Niños y adultos",
-    "description": "A study of 486 feet of present-day Greene Street between Houston and Prince Streets in Manhattan, New York. A remarkable and innovative project, producing a kind of thick description of a small area.",
+    "project_name": "al-Ṯurayyā Project",
+    "description": "Mapping the Arabic world in the classical epoque (circa 9th and 10th centuries A.D.).",
     "lang": "english",
     "active": true,
     "mirrored": null,
-    "url": "http://www.greenestreet.nyc",
+    "url": "https://althurayya.github.io/",
     "blog": null,
-    "categories": ["niños", "adultos"]
+    "categories": ["arab countries", "history", "middle ages"]
+  },
+  {
+    "project_name": "Animated Atlas of African History",
+    "description": "Flash-based map of Africa, available on the web as downloadable executables for Mac and Windows",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "https://www.brown.edu/Research/AAAH/index.htm",
+    "blog": null,
+    "categories": ["Africa", "history"]
+  },
+  {
+    "project_name": "Amsterdam Time Machine",
+    "description": "A hub for linked historical data on Amsterdam. Historic map tiles available, which is a rare thing",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "https://amsterdamtimemachine.nl/",
+    "blog": null,
+    "categories": ["Amsterdam", "Netherlands", "history"]
+  },
+  {
+    "project_name": "Army Barracks of c18th Ireland",
+    "description": "A pilot for the project Mapping State and Society in Eighteenth-Century Ireland, this site maps all of the army barracks active between 1690 and 1815.",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "http://barracks18c.ucd.ie/",
+    "blog": null,
+    "categories": ["Ireland", "Europe", "history", "early modern"]
+  },
+  {
+    "project_name": "Artists in Paris",
+    "description": "Mapping artists and their neighbourhoods in 17th and 18th century Paris.",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "http://www.artistsinparis.org",
+    "blog": null,
+    "categories": ["history", "art history", "France", "Paris", "Europe"]
+  },
+  {
+    "project_name": "Atlantic Networks Project",
+    "description": "Maps and data relating to trans-atlantic shipping, including the slave trade. ",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "https://sites.google.com/site/atlanticnetworksproject/",
+    "blog": null,
+    "categories": ["history", "Atlantic", "Europe", "America", "early modern"]
+  },
+  {
+    "project_name": "Atlas Cartografia Histórica",
+    "description": "Mapping the historic local administrations of Portugal, in Portuguese and English. ",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "http://atlas.fcsh.unl.pt/cartoweb35/atlas.php?lang=en",
+    "blog": null,
+    "categories": ["history", "Portugal", "Europe"]
+  },
+  {
+    "project_name": "Atlas das Paisagens Literárias de Portugal Continental",
+    "description": "Atlas of Literary Landscapes of Portugal, in Portuguese but with an english summary.",
+    "lang": "portuguese",
+    "active": true,
+    "mirrored": null,
+    "url": "http://litescape.ielt.fcsh.unl.pt/",
+    "blog": null,
+    "categories": ["history", "Portugal", "Europe", "literature"]
+  },
+  {
+    "project_name": "Atlas of Early Printing",
+    "description": "Printing in Europe, circa 1450 to 1500..",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "http://atlas.lib.uiowa.edu/",
+    "blog": null,
+    "categories": [
+      "history",
+      "history of printing",
+      "Europe",
+      "middle ages",
+      "Renaissance"
+    ]
+  },
+  {
+    "project_name": "Atlas of Digital Humanities and Social Science / Atlas de Ciencias Sociales y Humanidades Digitales",
+    "description": "This Atlas, from the University of Granada, covers the social sciences as well as DH, and has a strong Iberio-American focus.",
+    "lang": "spanish",
+    "active": true,
+    "mirrored": null,
+    "url": "http://grinugr.org/mapa/",
+    "blog": null,
+    "categories": ["digital humanities", "history", "literature"]
+  },
+  {
+    "project_name": "Batanes Islands Cultural Atlas",
+    "description": "A Cultural Atlas that includes maps, a timeline, and images of Batanes, the northern most province of the Philippines. ",
+    "lang": "english",
+    "active": false,
+    "mirrored": null,
+    "url": " http://ecai.org/batanesatlas/index.html",
+    "blog": null,
+    "categories": ["history", "Philippines"]
   }
 ]
