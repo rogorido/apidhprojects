@@ -46,7 +46,7 @@ async function getProjects(request, response) {
     // https://github.com/vitaly-t/pg-promise/issues/690
     // [['America', 'literature']]
     // this is why I create an array if we only have one element, and then
-    // I use again [ ] here above...
+    // I use again [ ] here below...
     rowList = await db.query(sqlFindProjectsOnlyCategories, [cats]);
   } else if (!request.query.cat && request.query.term) {
     let terms = Array.isArray(request.query.term)
@@ -71,6 +71,8 @@ async function getProjects(request, response) {
     // we need to add at the end :*
     terms = `${terms}:*`;
 
+    // see above for this use of [cats]. And here
+    // https://github.com/vitaly-t/pg-promise/issues/690
     let valuestopass = [terms, [cats]];
 
     rowList = await db.query(sqlFindProjectsComplex, valuestopass);
