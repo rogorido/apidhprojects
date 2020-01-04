@@ -3,4 +3,5 @@
 WITH j AS 
 (SELECT DISTINCT UNNEST(categories) AS category
 FROM projects ORDER BY category) 
-SELECT category AS value, category AS LABEL FROM j;
+SELECT category AS value, category AS LABEL FROM j
+ORDER BY category;
