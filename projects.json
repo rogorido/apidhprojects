@@ -144,5 +144,81 @@
     "url": " http://ecai.org/batanesatlas/index.html",
     "blog": null,
     "categories": ["history", "Philippines"]
+  },
+  {
+    "project_name": "Beijing in Transition",
+    "description": "A Historical GIS Study of Urban Cultures, 1912-1937. In Chinese and English.",
+    "lang": "chinese",
+    "active": true,
+    "mirrored": null,
+    "url": "http://www.iseis.cuhk.edu.hk/history/beijing/index.htm",
+    "blog": null,
+    "categories": [
+      "history",
+      "urban history",
+      "China",
+      "Beijing",
+      "contemporary history"
+    ]
+  },
+  {
+    "project_name": "Beijing of Dreams",
+    "description": "Photos of the old walled city of Beijing. ",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "https://beijingofdreams.com/",
+    "blog": null,
+    "categories": [
+      "history",
+      "photos",
+      "urban history",
+      "China",
+      "Beijing",
+      "contemporary history"
+    ]
+  },
+  {
+    "project_name": "Belgisch HISGIS",
+    "description": "Geo-historical statistics, 1800-1963/2003",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "http://www.lokstat.ugent.be/lokstat_start.php",
+    "blog": null,
+    "categories": ["history", "Belgium", "Europe"]
+  },
+  {
+    "project_name": "Beyond Steel",
+    "description": "Industry and Society in 19th and 20th century LeHigh County, Pennsylvania. ",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "http://digital.lib.lehigh.edu/beyondsteel/",
+    "blog": null,
+    "categories": [
+      "history",
+      "industry history",
+      "USA",
+      "contemporary history",
+      "Pennsylvania"
+    ]
+  },
+  {
+    "project_name": "Bombsight",
+    "description": "Bomb Sight is mapping the WW2 bomb census in London using web and mobile mapping technology.",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "http://bombsight.org/#15/51.5050/-0.0900",
+    "blog": null,
+    "categories": [
+      "history",
+      "contemporary history",
+      "war history",
+      "II World War",
+      "London",
+      "United Kingdom"
+    ]
   }
 ]
