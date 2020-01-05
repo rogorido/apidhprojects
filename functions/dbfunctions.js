@@ -80,4 +80,10 @@ async function getProjects(request, response) {
   response.send(rowList);
 }
 
-module.exports = { getCategories, getProjects };
+async function getAllProjects(request, response) {
+  const sql = "SELECT * FROM searching";
+  const rowList = await db.query(sql);
+  response.send(rowList);
+}
+
+module.exports = { getCategories, getProjects, getAllProjects };

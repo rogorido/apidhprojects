@@ -29,6 +29,7 @@ app.use(cors());
 
 app.get("/search/", dbFunctions.getProjects);
 app.get("/categories/", dbFunctions.getCategories);
+app.get("/allprojects/", dbFunctions.getAllProjects);
 
 app.listen(process.env.PORT, () => {
   console.log(`Server is running on http://localhost:${process.env.PORT}/`);
