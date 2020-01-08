@@ -2,7 +2,7 @@
   {
     "project_name": "Addressing History",
     "description": "Scottish Post Office directories and contemporary maps.",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "http://addressinghistory.edina.ac.uk/",
@@ -12,7 +12,7 @@
   {
     "project_name": "AfricaMap",
     "description": "Part of the Harvard World Map project. Africamap is housed at the Center for Geographic Analysis at Harvard University with an initial grant from the Harvard Provosts Fund for Innovative Computing and ongoing support from the W. E. B. Du Bois Institute, the Department of African and African American Studies and the Committee for African Studies at Harvard University. AfricaMap grew out of a project, called Baobab, funded by the Seaver Institute.",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "http://worldmap.harvard.edu/africamap/",
@@ -22,7 +22,7 @@
   {
     "project_name": "A Long History of a Short Block",
     "description": "A study of 486 feet of present-day Greene Street between Houston and Prince Streets in Manhattan, New York. A remarkable and innovative project, producing a kind of thick description of a small area.",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "http://www.greenestreet.nyc/",
@@ -32,7 +32,7 @@
   {
     "project_name": "al-Ṯurayyā Project",
     "description": "Mapping the Arabic world in the classical epoque (circa 9th and 10th centuries A.D.).",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "https://althurayya.github.io/",
@@ -42,7 +42,7 @@
   {
     "project_name": "Animated Atlas of African History",
     "description": "Flash-based map of Africa, available on the web as downloadable executables for Mac and Windows",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "https://www.brown.edu/Research/AAAH/index.htm",
@@ -52,7 +52,7 @@
   {
     "project_name": "Amsterdam Time Machine",
     "description": "A hub for linked historical data on Amsterdam. Historic map tiles available, which is a rare thing",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "https://amsterdamtimemachine.nl/",
@@ -62,7 +62,7 @@
   {
     "project_name": "Army Barracks of c18th Ireland",
     "description": "A pilot for the project Mapping State and Society in Eighteenth-Century Ireland, this site maps all of the army barracks active between 1690 and 1815.",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "http://barracks18c.ucd.ie/",
@@ -72,17 +72,24 @@
   {
     "project_name": "Artists in Paris",
     "description": "Mapping artists and their neighbourhoods in 17th and 18th century Paris.",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "http://www.artistsinparis.org",
     "blog": null,
-    "categories": ["history", "art history", "France", "Paris", "Europe"]
+    "categories": [
+      "history",
+      "art history",
+      "France",
+      "Paris",
+      "Europe",
+      "urban history"
+    ]
   },
   {
     "project_name": "Atlantic Networks Project",
     "description": "Maps and data relating to trans-atlantic shipping, including the slave trade. ",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "https://sites.google.com/site/atlanticnetworksproject/",
@@ -92,7 +99,7 @@
   {
     "project_name": "Atlas Cartografia Histórica",
     "description": "Mapping the historic local administrations of Portugal, in Portuguese and English. ",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "http://atlas.fcsh.unl.pt/cartoweb35/atlas.php?lang=en",
@@ -112,7 +119,7 @@
   {
     "project_name": "Atlas of Early Printing",
     "description": "Printing in Europe, circa 1450 to 1500.",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "http://atlas.lib.uiowa.edu/",
@@ -138,7 +145,7 @@
   {
     "project_name": "Batanes Islands Cultural Atlas",
     "description": "A Cultural Atlas that includes maps, a timeline, and images of Batanes, the northern most province of the Philippines.",
-    "lang": "english",
+    "lang": "English",
     "active": false,
     "mirrored": null,
     "url": " http://ecai.org/batanesatlas/index.html",
@@ -164,7 +171,7 @@
   {
     "project_name": "Beijing of Dreams",
     "description": "Photos of the old walled city of Beijing. ",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "https://beijingofdreams.com/",
@@ -181,7 +188,7 @@
   {
     "project_name": "Belgisch HISGIS",
     "description": "Geo-historical statistics, 1800-1963/2003",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "http://www.lokstat.ugent.be/lokstat_start.php",
@@ -191,7 +198,7 @@
   {
     "project_name": "Beyond Steel",
     "description": "Industry and Society in 19th and 20th century LeHigh County, Pennsylvania. ",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "http://digital.lib.lehigh.edu/beyondsteel/",
@@ -207,7 +214,7 @@
   {
     "project_name": "Bombsight",
     "description": "Bomb Sight is mapping the WW2 bomb census in London using web and mobile mapping technology.",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "http://bombsight.org/#15/51.5050/-0.0900",
@@ -220,5 +227,88 @@
       "London",
       "United Kingdom"
     ]
+  },
+  {
+    "project_name": "Borderlands Archives Cartography",
+    "description": "The geography of nineteenth and mid-twentieth century newspapers from the U.S.-Mexico border.",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "https://www.bacartography.org/",
+    "blog": null,
+    "categories": ["Mexico", "USA", "contemporary history", "history"]
+  },
+  {
+    "project_name": "Caribbean Cholera Map",
+    "description": "Interesting medical history map and timeline from Duke University’s Haiti Project.",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": " http://www.caribbeancholera.org/",
+    "blog": null,
+    "categories": ["Caribe", "contemporary history", "history of the medicine"]
+  },
+  {
+    "project_name": "Cartographie des Mémoires de l’Esclavage",
+    "description": "Mapping memories of slavery in the francophone world.",
+    "lang": "French",
+    "active": true,
+    "mirrored": null,
+    "url": "http://www.mmoe.llc.ed.ac.uk/",
+    "blog": null,
+    "categories": ["slavery", "contemporary history", "history"]
+  },
+  {
+    "project_name": "CHALICE",
+    "description": "Creating a historic placename gazetteer for the U.K.",
+    "lang": "english",
+    "active": false,
+    "mirrored": null,
+    "url": "http://chalice.blogs.edina.ac.uk/",
+    "blog": null,
+    "categories": [
+      "gazetteer",
+      "United Kingdom",
+      "placenames",
+      "geographical names",
+      "Europe"
+    ]
+  },
+  {
+    "project_name": "Charles Booth Online Archive",
+    "description": "Archive of the Victorian social investigator, including his famed poverty maps of London.",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "https://booth.lse.ac.uk/",
+    "blog": null,
+    "categories": [
+      "history",
+      "poverty",
+      "urban history",
+      "London",
+      "United Kingdom",
+      "Europe"
+    ]
+  },
+  {
+    "project_name": "The China Historical Geographic Information System",
+    "description": "A free database of placenames and historical administrative units for the Chinese Dynasties. ",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "https://sites.fas.harvard.edu/~chgis/",
+    "blog": null,
+    "categories": ["China", "history", "placenames", "administrative units"]
+  },
+  {
+    "project_name": "Chinese Civilization in Time and Space",
+    "description": "In response of the demands of interdisciplinary research applications, this system aims to construct an integrated GIS-based application infrastructure within the spatial extent of China, in the timeframe of Chinese history, and with the contents of Chinese civilization. Although target users are primarily scholars, academic experts, and school teachers, it is also our goal to provide general spatial- and temporal-based applications",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "http://ccts.ascc.net/index.php?lang=en",
+    "blog": null,
+    "categories": ["history", "China", "placenames", "administrative units"]
   }
 ]
