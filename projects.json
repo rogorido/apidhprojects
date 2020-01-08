@@ -155,7 +155,7 @@
   {
     "project_name": "Beijing in Transition",
     "description": "A Historical GIS Study of Urban Cultures, 1912-1937. In Chinese and English.",
-    "lang": "chinese",
+    "lang": "Chinese",
     "active": true,
     "mirrored": null,
     "url": "http://www.iseis.cuhk.edu.hk/history/beijing/index.htm",
@@ -261,7 +261,7 @@
   {
     "project_name": "CHALICE",
     "description": "Creating a historic placename gazetteer for the U.K.",
-    "lang": "english",
+    "lang": "English",
     "active": false,
     "mirrored": null,
     "url": "http://chalice.blogs.edina.ac.uk/",
@@ -277,7 +277,7 @@
   {
     "project_name": "Charles Booth Online Archive",
     "description": "Archive of the Victorian social investigator, including his famed poverty maps of London.",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "https://booth.lse.ac.uk/",
@@ -294,7 +294,7 @@
   {
     "project_name": "The China Historical Geographic Information System",
     "description": "A free database of placenames and historical administrative units for the Chinese Dynasties. ",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "https://sites.fas.harvard.edu/~chgis/",
@@ -304,11 +304,95 @@
   {
     "project_name": "Chinese Civilization in Time and Space",
     "description": "In response of the demands of interdisciplinary research applications, this system aims to construct an integrated GIS-based application infrastructure within the spatial extent of China, in the timeframe of Chinese history, and with the contents of Chinese civilization. Although target users are primarily scholars, academic experts, and school teachers, it is also our goal to provide general spatial- and temporal-based applications",
-    "lang": "english",
+    "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "http://ccts.ascc.net/index.php?lang=en",
     "blog": null,
     "categories": ["history", "China", "placenames", "administrative units"]
+  },
+  {
+    "project_name": "City Witness",
+    "description": "This project aims to exploit the rich potential of this source to extend our understanding of the medieval town, by connecting it with GIS mapping and 3D digital visualisation, reconstructing the literal perspectives experienced by the medieval witnesses within the city, and exploring the diverse identities and perceptions of urban spaces which are represented in the text.",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "http://www.medievalswansea.ac.uk/en/",
+    "blog": null,
+    "categories": [
+      "urban history",
+      "medieval history",
+      "Wales",
+      "United Kingdom",
+      "Europe"
+    ]
+  },
+  {
+    "project_name": "Cleveland Historical",
+    "description": "Cleveland Historical is a free mobile app that puts Cleveland history at your fingertips. Developed by the Center for Public History + Digital Humanities at Cleveland State University, Cleveland Historical lets you explore the people, places, and moments that have shaped the city's history. Learn about the region through layered, map-based, multimedia presentations, use social media to share your stories, and experience curated historical tours of Northeast Ohio.",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "https://clevelandhistorical.org/",
+    "blog": null,
+    "categories": [
+      "urban history",
+      "USA",
+      "Cleveland",
+      "Ohio",
+      "mobile application"
+    ]
+  },
+  {
+    "project_name": "Clio",
+    "description": "Clio is an educational website and mobile application that guides the public to thousands of historical and cultural sites throughout the United States. Built by scholars for public benefit, each entry includes a concise summary and useful information about a historical site, museum, monument, landmark, or other site of cultural or historical significance. In addition, “time capsule” entries allow users to learn about historical events that occurred around them. Each entry offers turn-by-turn directions as well as links to relevant books, articles, videos, primary sources, and credible websites.",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "https://theclio.com/",
+    "blog": null,
+    "categories": ["USA", "history", "mobile application"]
+  },
+  {
+    "project_name": "Collective Violence",
+    "description": " a comprehensive record of white mob violence that collectively punished African American communities across the United States. While the thousands of lynchings that occurred were also a form of racial terrorism against the African American community we have generally excluded them from this project. ",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "https://collectivepunishment.wordpress.com/",
+    "blog": null,
+    "categories": [
+      "history",
+      "contemporary history",
+      "USA",
+      "violence",
+      "racial conflicts"
+    ]
+  },
+  {
+    "project_name": "Colonial Dispatches",
+    "description": "This digital archive contains the original correspondence between the British Colonial Office and the colonies of Vancouver Island and British Columbia. This project aims to digitize and publish online a complete archive of the correspondence covering the period from 1846 leading to the founding of Vancouver Island in 1849, the founding of British Columbia in 1858, the annexation of Vancouver Island by British Columbia in 1866, and up to the incorporation of B.C. into the Canadian Federation in 1871.",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "https://bcgenesis.uvic.ca/",
+    "blog": null,
+    "categories": ["colonialism", "America", "Europe", "19th century"]
+  },
+  {
+    "project_name": "Colonial Frontier Masacres in Eastern Australia (1780-1930)",
+    "description": "The project grew out the Aboriginal history wars that broke out in the late 1990s and the debate about frontier massacres. The key questions included: What is a frontier massacre? Where is the evidence? Where did they take place? Were they widespread? Who were the perpetrators? How can we know? ",
+    "lang": "english",
+    "active": true,
+    "mirrored": null,
+    "url": "http://addressinghistory.edina.ac.uk/",
+    "blog": null,
+    "categories": [
+      "history",
+      "contemporary history",
+      "violence",
+      "Australia",
+      "frontier"
+    ]
   }
 ]
