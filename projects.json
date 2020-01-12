@@ -394,5 +394,107 @@
       "Australia",
       "frontier"
     ]
+  },
+  {
+    "project_name": "Compostela Geoliteraria",
+    "description": "Investigating the literature of the city of Santiago de Compostela. ",
+    "lang": "Spanish",
+    "active": true,
+    "mirrored": null,
+    "url": "https://www.compostelageoliteraria.org/",
+    "blog": null,
+    "categories": ["urban history", "literature", "Spain", "Europe"]
+  },
+  {
+    "project_name": "Cultural Atlas of Australia",
+    "description": "“An interactive digital map that explores Australian places and spaces as they are represented in and through films, novels, and plays",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "http://australian-cultural-atlas.info/CAA/index.php",
+    "blog": null,
+    "categories": ["history", "art history", "Australia"]
+  },
+  {
+    "project_name": "Danish Folklore",
+    "description": "Project mapping Danish folklore and Kristensen’s investigations of it.",
+    "lang": "Danish/English",
+    "active": false,
+    "mirrored": null,
+    "url": "http://projects.cdh.ucla.edu/danishfolklore/bin/index.html",
+    "blog": null,
+    "categories": ["history", "folklore", "Denmark", "Europe"]
+  },
+  {
+    "project_name": "Danske Herregaarde",
+    "description": "Map of Danish Manors.",
+    "lang": "Danish/English",
+    "active": true,
+    "mirrored": null,
+    "url": "http://www.danskeherregaarde.dk/",
+    "blog": null,
+    "categories": [
+      "history",
+      "Denmark",
+      "Europe",
+      "cultural landscape",
+      "buildings",
+      "architecture"
+    ]
+  },
+  {
+    "project_name": "Decima",
+    "description": "The Digitally Encoded Census Information and Mapping Archive. Decima studies Florence under the rule of Duke Cosimo I (1519-1574).",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "https://decima-map.net/",
+    "blog": null,
+    "categories": ["history", "Italy", "Florence", "Europe"]
+  },
+  {
+    "project_name": "Dictionary of Sydney",
+    "description": "A website about the history of Sydney – its urban myths, characters, political players, writers, dreamers, intellectuals, sports people, criminals – anyone and everything that contributes to Sydney’s story.",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "http://home.dictionaryofsydney.org/",
+    "blog": null,
+    "categories": ["urban history", "Sidney", "Australia"]
+  },
+  {
+    "project_name": "Digital Atlas of Indonesian History",
+    "description": "Accompanying, and expanding upon, Robert Cribb’s Historical Atlas of Indonesia (NIAS Press, 2000), this site requires a serial number from the book for full access.",
+    "lang": "English",
+    "active": false,
+    "mirrored": null,
+    "url": "http://www.indonesianhistory.info/",
+    "blog": null,
+    "categories": ["history", "atlas", "Indonesia"]
+  },
+  {
+    "project_name": "Digital Atlas of Roman and Medieval Civilization",
+    "description": "The Digital Atlas of Roman and Medieval Civilizations (DARMC) makes freely available on the internet the best available materials for a Geographic Information Systems (GIS) approach to mapping and spatial analysis of the Roman and medieval worlds. DARMC allows innovative spatial and temporal analyses of all aspects of the civilizations of western Eurasia in the first 1500 years of our era, as well as the generation of original maps illustrating differing aspects of ancient and medieval civilization. A work in progress with no claim to definitiveness, it has been built in less than three years by a dedicated team of Harvard undergraduates, graduate students, research scholars and one professor, with some valuable contributions from younger and more senior scholars at other institutions.",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "https://darmc.harvard.edu/",
+    "blog": null,
+    "categories": ["history", "Roman Empire", "medieval times", "Europe"]
+  },
+  {
+    "project_name": "Digital Atlas on the History of Europe since 1500",
+    "description": "The Digital Atlas on the History of Europe since 1500 is based on work undertaken in an area of study on Spatial Research in European History since 1500, conducted from 2007 to 2013 at the Institute of European History, Mainz, Germany. The atlas combines thematic cartography with GIS-based mapping in order to create a visual and interactive history of the European state system since 1500.",
+    "lang": "German/English",
+    "active": true,
+    "mirrored": null,
+    "url": "https://www.atlas-europa.de/index.html",
+    "blog": null,
+    "categories": [
+      "history",
+      "early modern history",
+      "contemporary history",
+      "Europe"
+    ]
   }
 ]
