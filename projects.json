@@ -496,5 +496,52 @@
       "contemporary history",
       "Europe"
     ]
+  },
+  {
+    "project_name": "Digital Augustan Rome",
+    "description": "Digital Augustan Rome is a long term mapping project that is prepared to provide a worthy digital successor to the published book and maps of Mapping Augustan Rome that appeared as Supplement 50 in the Journal of Roman Archaeology Series, 2002. The volume was directed by Lothar Haselberger in collaboration with David Gilman Romano and edited by Elisha Dumser. The entries were written by over 12 authors.",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "http://digitalaugustanrome.org/",
+    "blog": null,
+    "categories": ["history", "Europe", "Roman Empire", "antiquity"]
+  },
+  {
+    "project_name": "Digital Gazetteer of the Song Dynasty",
+    "description": "In 1958, Sinologist Hope Wright published a work entitled An Alphabetical List of Geographical Names in Sung China. Originally published in Paris by the Centre de Recherches Historiques of the École Pratique des Hautes Études, and reprinted as a second-generation photocopy in 1992 by the Journal of Song-Yuan Studies, the Alphabetical List is now out of print. Wright's compilation is the most comprehensive print source for Song geography in any language. The Digital Gazetteer of Song Dynasty China (DGSD) is a MySQL database derived primarily from the Alphabetical List.",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "http://songgis.ucmerced.edu/",
+    "blog": null,
+    "categories": ["gazetteer", "Song dinasty", "medieval times", "China"]
+  },
+  {
+    "project_name": "Digital Harlem (1915-1930)",
+    "description": "The Digital Harlem website presents information, drawn from legal records, newspapers and other archival and published sources, about everyday life in New York City's Harlem neighborhood in the years 1915-1930. Most of the material relates to the years 1920, 1925, and 1930.",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "http://digitalharlem.org/",
+    "blog": null,
+    "categories": [
+      "history",
+      "USA",
+      "urban history",
+      "New York",
+      "racial history",
+      "contemporary history"
+    ]
+  },
+  {
+    "project_name": "Digital Harrisburg",
+    "description": "igital Harrisburg is a collaboration between Harrisburg University and Messiah College. It is designed to connect the public, researchers, and undergraduate students, giving them all the opportunity to explore the social history of the Commonwealth of Pennsylvania’s capital.",
+    "lang": "English",
+    "active": true,
+    "mirrored": null,
+    "url": "https://digitalharrisburg.com/",
+    "blog": null,
+    "categories": ["urban history", "USA"]
   }
 ]
