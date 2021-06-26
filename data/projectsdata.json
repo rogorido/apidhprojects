@@ -536,12 +536,28 @@
   },
   {
     "project_name": "Digital Harrisburg",
-    "description": "igital Harrisburg is a collaboration between Harrisburg University and Messiah College. It is designed to connect the public, researchers, and undergraduate students, giving them all the opportunity to explore the social history of the Commonwealth of Pennsylvania’s capital.",
+    "description": "Digital Harrisburg is a collaboration between Harrisburg University and Messiah College. It is designed to connect the public, researchers, and undergraduate students, giving them all the opportunity to explore the social history of the Commonwealth of Pennsylvania’s capital.",
     "lang": "English",
     "active": true,
     "mirrored": null,
     "url": "https://digitalharrisburg.com/",
     "blog": null,
     "categories": ["urban history", "USA"]
+  },
+  {
+    "project_name": "Digital Karnak",
+    "description": "The colossal site of Karnak is one of the largest temple complexes in the world, with an incredibly rich architectural, ritual, religious, economic, social and political history. The Amun-Ra precinct, which includes an astonishing number of individual temples, shrines and processional ways, stands as a micro-cosmos of ancient Egypt.  We invite you to experience Karnak – to learn about an ancient site that still resonates today because of its monumental pylons, towering columns, stunning reliefs and architectural marvels. Enter the temple precinct and discover its rich religious, political and architectural history. The Digital Karnak Project was designed and built at the University of California at Los Angeles (UCLA) under the direction of Dr. Diane Favro (director of the ETC) and Dr. Willeke Wendrich (editor-in-chief of the UCLA Encyclopedia of Egyptology).",
+    "lang": "English",
+    "active": false,
+    "mirrored": null,
+    "url": "http://dlib.etc.ucla.edu/projects/Karnak/",
+    "blog": null,
+    "categories": [
+      "archaeology",
+      "ancient Egypt",
+      "antiquity",
+      "religion",
+      "urban history"
+    ]
   }
 ]

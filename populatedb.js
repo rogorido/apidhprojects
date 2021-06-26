@@ -1,5 +1,5 @@
 const { Client } = require("pg");
-const projects = require("./projects.json");
+const projects = require("./data/projectsdata.json");
 require("dotenv").config();
 
 for (var i = 0; i < projects.length; i++) {
