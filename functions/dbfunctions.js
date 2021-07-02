@@ -3,7 +3,7 @@ const path = require("path");
 const initOptions = {
   query(e) {
     console.log("QUERY:", e.query);
-  }
+  },
 };
 
 //const pgp = require("pg-promise")(initOptions);
@@ -24,12 +24,18 @@ function sql(file) {
 }
 
 const sqlGetCategories = sql("../sqls/categories.sql");
+const sqlGetCategoriesStats = sql("../sqls/categoriesstats.sql");
 const sqlFindProjectsSimple = sql("../sqls/querysimple.sql");
 const sqlFindProjectsComplex = sql("../sqls/querywithcats.sql");
 const sqlFindProjectsOnlyCategories = sql("../sqls/queryonlycats.sql");
 
 async function getCategories(request, response) {
   const rowList = await db.query(sqlGetCategories);
+  response.send(rowList);
+}
+
+async function getCategoriesStats(request, response) {
+  const rowList = await db.query(sqlGetCategoriesStats);
   response.send(rowList);
 }
 
@@ -86,4 +92,9 @@ async function getAllProjects(request, response) {
   response.send(rowList);
 }
 
-module.exports = { getCategories, getProjects, getAllProjects };
+module.exports = {
+  getCategories,
+  getCategoriesStats,
+  getProjects,
+  getAllProjects,
+};

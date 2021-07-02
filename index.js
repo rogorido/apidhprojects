@@ -37,6 +37,7 @@ app.use(
 
 app.get("/search/", dbFunctions.getProjects);
 app.get("/categories/", dbFunctions.getCategories);
+app.get("/categories/stats/", dbFunctions.getCategoriesStats);
 app.get("/allprojects/", dbFunctions.getAllProjects);
 
 app.listen(process.env.PORT, () => {
